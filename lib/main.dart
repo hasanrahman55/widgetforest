@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetforest/presentation/screen/listpage/community_list.dart';
-import 'package:widgetforest/presentation/screen/splash/splash.dart';
+
+import 'package:widgetforest/presentation/screen/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CommunityList(),
+      home: Splash(),
     );
   }
 }
